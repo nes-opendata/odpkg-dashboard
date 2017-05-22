@@ -1,0 +1,26 @@
+version: '2'
+
+services:
+
+  dashboard:
+    build: ./dashboard
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./dashboard:/dashboard
+      - /opt/odpkg/log/dashboard:/dashboard/log
+    privileged: true
+    restart: always
+    env_file: ./odpkg.env
+      
+  nginx:
+    depends_on:
+      - dashboard
+    build: ./nginx
+    restart: always
+    env_file: ./odpkg.env
+    ports:
+      - "443:443"
+      - "80:80"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /opt/odpkg/log/nginx:/var/log/nginx

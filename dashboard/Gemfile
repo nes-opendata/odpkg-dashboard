@@ -62,5 +62,5 @@ gem 'font-awesome-rails'
 # For development
 group :development do
   gem 'ruby-debug-ide'
-  gem 'debase'
+  gem 'debase', '~> 0.2.2'
 end

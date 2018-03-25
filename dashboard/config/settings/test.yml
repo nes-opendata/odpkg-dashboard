@@ -1,0 +1,29 @@
+home:
+  url: http://opendata.example.com
+ckan:
+  api: http://opendata.example.com/api/3
+  polygon_tag: price
+  point_tag: location
+analytics:
+  id: abcabcabcabcabcabcabc
+maps:
+  key: defdefdefdefdefdefdef
+polygon:
+  columns:
+    - 総人口
+organizations:
+  - id: org1
+    name: 組織1
+    maps:
+      json: test-city1.geojson
+      lat: 33.596302
+      lng: 130.410784
+      zoom: 12
+  - id: org2
+    name: 組織2
+    maps:
+      json: test-city2.geojson
+      lat: 33.596302
+      lng: 130.410784
+      zoom: 12
+

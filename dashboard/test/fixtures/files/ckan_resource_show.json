@@ -1,0 +1,26 @@
+{
+  "help": "https://opendata.example.com/api/3/action/help_show?name=resource_show",
+  "success": true,
+  "result": {
+    "mimetype": "text/csv",
+    "cache_url": null,
+    "hash": "f4f94ec6f3297e608a562434e52a3993a3c3f7e4",
+    "description": "December 2011",
+    "name": "December 2011",
+    "format": "CSV",
+    "url": "http://www.newcastle.gov.uk/sites/drupalncc.newcastle.gov.uk/files/wwwfileroot/your-council/local_transparency/december_2011.csv",
+    "datastore_active": true,
+    "cache_last_updated": null,
+    "package_id": "b9076e40-80ea-480b-b330-e399d7a8c09b",
+    "created": "2017-07-18T13:16:32.204680",
+    "state": "active",
+    "mimetype_inner": "",
+    "last_modified": "2012-03-13T22:04:31.993982",
+    "position": 0,
+    "revision_id": "746c4bc2-7666-4519-a008-13ed98161b03",
+    "url_type": null,
+    "id": "0c2bd47a-6ac5-412e-a337-1b45a952e07e",
+    "resource_type": "file",
+    "size": "1081957"
+  }
+}
